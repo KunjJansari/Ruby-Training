@@ -1,4 +1,4 @@
-class Task1
+class Subtract
   def calc(number)
     sum1,sum2 = 0,0
     for i in (1..number)
@@ -12,5 +12,5 @@ class Task1
     result = operand1 - operand2
   end
 end
-t1 = Task1.new
+t1 = Subtract.new
 p t1.calc(5)
