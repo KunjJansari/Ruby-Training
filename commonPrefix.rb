@@ -1,5 +1,5 @@
 
-class Task2
+class CommonPrefix
 
   def prefix_calc string
 
@@ -25,6 +25,6 @@ class Task2
   puts "Common Prefix of the string array is : #{result}"
 end
 end  
-t2 = Task2.new
+t2 = CommonPrefix.new
 string = ["challenge","characteristic","champion"] 
 t2.prefix_calc string
