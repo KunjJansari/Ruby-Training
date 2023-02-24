@@ -1,4 +1,4 @@
-class Task4
+class RemoveDuplicate
   
   def calc(numbers,start_ind,end_ind)
     
@@ -23,5 +23,5 @@ numbers = [0,0,1,1,1,2,2,3,3,4]
 # numbers = [1,2,2,3,4,4,4,5,5]
 start_ind = 0
 end_ind = numbers.length-1
-t4 = Task4.new
+t4 = RemoveDuplicate.new
 t4.calc(numbers,start_ind,end_ind)
