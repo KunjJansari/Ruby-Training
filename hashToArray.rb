@@ -1,7 +1,7 @@
 class HashToArray
   def hashToArray(input,hash)
     input.each{|key,value| hash[key.to_s]=value}
-    p hash.to_a
+    p hash.sort.to_a
   end
   
 end
