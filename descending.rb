@@ -1,4 +1,4 @@
-class Task5
+class Descending
   num = 42145
   # num = 145263
   # num = 123456789
@@ -8,4 +8,4 @@ class Task5
   p lambda_func.call
 end
 
-t5 = Task5.new
+t5 = Descending.new
