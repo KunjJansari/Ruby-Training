@@ -13,7 +13,7 @@ class CommonPrefix
     else if size == 1
       string
     else
-      for i in (0..size-1)
+      for i in (0..len-1)
         if string[0][i] == string[size-1][i]
           result += string[0][i]
         else
